@@ -11,9 +11,12 @@ Chicago, New York City, and Washington.
 
 ### Files used
 bikeshare_project.py  
-chicago.csv  
+chicago.csv
 washington.csv  
 new_york_city.csv  
+
+_Please note that the three csv files are not incluided in the repository and need to be obtained here in the Python module of nanodegree._
+
 
 ### Requirements
 
