@@ -1,17 +1,28 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
-### Date created
-Include the date you created this project and README file.
+## Bikeshare Python Project
 
-### Project Title
-Replace the Project Title
+### Date created
+The first version of this project was completed on 2021-05-01.
 
 ### Description
-Describe what your project is about and what it does
+This project was created for the python module of the Udacity Programing for
+Data Science with Python nanodegree. It allows the user to interactively explore
+three databases containing data referring to a bikeshare service available in
+Chicago, New York City, and Washington.
 
 ### Files used
-Include the files used
+bikeshare_project.py
+chicago.csv
+washington.csv
+new_york_city.csv
+
+### Requirements
+
+python 3.8.3
+pandas 1.0.5
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+To create the project I have used the template provided, the concepts taught at
+the nanodegree's classes, and Python's and Pandas' official documentation.
