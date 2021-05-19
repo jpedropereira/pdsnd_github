@@ -10,15 +10,15 @@ three databases containing data referring to a bikeshare service available in
 Chicago, New York City, and Washington.
 
 ### Files used
-bikeshare_project.py
-chicago.csv
-washington.csv
-new_york_city.csv
+bikeshare_project.py  
+chicago.csv  
+washington.csv  
+new_york_city.csv  
 
 ### Requirements
 
-python 3.8.3
-pandas 1.0.5
+python 3.8.3  
+pandas 1.0.5  
 
 ### Credits
 
