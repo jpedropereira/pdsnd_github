@@ -217,6 +217,7 @@ def user_stats(df):
 
 def individual_data(df):
     # Asks user if they would like to see five individual records at a time.
+    pd.set_option('display.max_columns', None)
     ind_data = input('Would you like to see five individual records? Enter yes or no.\n')
     disp_start_row = 0
 
