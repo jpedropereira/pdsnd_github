@@ -26,7 +26,7 @@ def get_filters():
 
     # city input validation
     while city not in ['chicago', 'new york city', 'washington']:
-        print('\nThe city name you entered isn\'t valid. Please enter the full city name.'
+        print(f'\n{city} isn\'t a valid city name. Please enter the full city name.'
               '\nData is available for Chicago, New York City, and Washington.')
         city = input(
             '\n\nPlease enter the name of the city for which you would like to see bikeshare data.\n')
@@ -42,7 +42,7 @@ def get_filters():
 
     # month input validation
     while month not in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
-        print('\nYour input isn\'t a valid month name. Please enter the full month name.'
+        print(f'\n{month} isn\'t a valid month name. Please enter the full month name.'
               '\nData is available between January and June.\n'
               'If you do not want to filter by month, please enter "all".')
         month = input(
@@ -58,7 +58,7 @@ def get_filters():
 
     # day of the week input validation
     while day not in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
-        print('\nYour input isn\'t a valid day weekday.'
+        print(f'\n{day} isn\'t a valid day weekday.'
               ' Please enter the full weekday name in singular form (e.g. Saturday).')
         print('If you do not want to filter by day of the week, please enter "all".\n')
         day = input(
